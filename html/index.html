@@ -5,10 +5,63 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="/style.css">
+   <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/navbar-fixed/">
+   <link rel="stylesheet" href="/bootstrap.min.css">
    <title>Bejing Zoo</title>
 </head>
 <body>
-   <h1>Bejing Zoo</h1>
+   <!-- Navbar niet zomaar aanzitten anders werkt BOOTSTRAP niet meer goed!!!!!! -->
+   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Beijing Zoo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav me-auto mb-2 mb-md-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" href="#">Events</a>
+       </li>
+       <li class="nav-item">
+         <a class="nav-link" href="#">Ticket</a>
+       </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li> -->
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+<div class="infodier">
+   <div class="infodierentuin">
+      <h5>Informatie Dierentuin</h5>
+      <p>The Beijing Zoo is a zoological park in Xizhimen, Xicheng District, Beijing, the capital of the China.[1] Founded in 1906 during the late Qing dynasty, it is the oldest zoo in China and oldest public park in northern China.[2] The zoo is also a center of zoological research that studies and breeds rare animals from various continents.
+
+         The zoo occupies an area of 89 hectares (220 acres), including 5.6 hectares (14 acres) of lakes and ponds in Xicheng District.[2] It has one of the largest animal collections in the country. The zoo and its aquarium have over 450 species of land animals and over 500 species of marine animals; in all, it is home to 14,500 animals.</p>
    
+      </div>
+      <div class="tijden1">
+         <div class="tijden">
+            <h5>Openingstijden</h5>
+         </div>
+      </div>
+</div>
+
+
+
 </body>
 </html>
