@@ -1,0 +1,79 @@
+body{
+  background-color: rgb(243, 248, 245);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+}
+
+.navbar a {
+  float: right;
+  padding-left: 1%;
+  font-size: 16px;
+  color: rgb(7, 0, 0);
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.midden{
+  padding-top: 8%;
+  padding-left: 5%;
+  padding-bottom: 6%;
+  /* background: linear-gradient( rgb(255, 255, 255), rgb(202, 202, 202)); */
+  /* background-image: url(/img/redpanda2.png); */
+}
+
+#tesktmezelf{
+  padding-top: 300px;
+    color: black;
+  }
+
+  button{
+    padding: 10px 25px;
+    background-color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+
+img{
+  width: 400px;
+}
+
+
+
+.kut{
+  margin-left: 40%;
+}
+
+
+#contentblok{
+  max-width: 700px;
+    width: 100%;
+    background: linear-gradient( rgb(255, 255, 255), rgb(163, 163, 163));
+    padding: 25px 30px;
+    border-radius: 5px;
+    align-items: center;
+
+}
+
+#blok{
+  display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center; 
+    background: linear-gradient(140deg, #ffffff, rgb(139, 139, 139));
+
+}
+
+
+
+
+
