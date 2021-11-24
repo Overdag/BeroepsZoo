@@ -1,62 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="util.js"></script>
 
-    <title>Beijing Zoo</title>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="util.js"></script>
+
+  <title>Beijing Zoo</title>
 </head>
+
 <body>
   <div class="navbar">
     <a href="contact.html">Contact</a>
     <a href="#">Tickets</a>
-    <a href="#">Dieren</a>
-    <a href="#">Home</a>
+    <a href="dieren.html">Dieren</a>
+    <a href="index.html">Home</a>
     <h1>Beijing Zoo</h1>
   </div>
-      <img style=" padding-left: 10%;" src="/img/bz.png" >
+  <img style=" padding-left: 10%;" src="/img/bz.png">
 
-      <div class="midden">
+  <div class="midden">
 
-      <div id="tekstmezelf">
+    <div id="tekstmezelf">
 
-          <h4>Beijing Zoo</h4>
-          <br>
-          <h2>Dierentuin</h2>
-          <div class="kut">
-            <img class="mySlides" src="/img/oli.png">
-            <img class="mySlides" src="/img/panda.png">
-            <img class="mySlides" src="/img/redpanda.png">
-            <img class="mySlides" src="/img/fla.png">
-            <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+      <h4>Beijing Zoo</h4>
+      <br>
+      <h2>Dierentuin</h2>
+      <div class="kut">
+        <img class="mySlides" src="/img/oli.png">
+        <img class="mySlides" src="/img/panda.png">
+        <img class="mySlides" src="/img/redpanda.png">
+        <img class="mySlides" src="/img/fla.png">
+        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
         <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
-        </div>
-          
-            <br>
-            <a  href="cijfer.html"><button>Lees Meer</button></a>
-          </div>
+      </div>
     </div>
+  </div>
 
-<!-- JavaScript -->
+  <!-- JavaScript -->
   <script>var slideIndex = 1;
-      showDivs(slideIndex);
-      
-      function plusDivs(n) {
-        showDivs(slideIndex += n);
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) { slideIndex = 1 }
+      if (n < 1) { slideIndex = x.length };
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
       }
-      
-      function showDivs(n) {
-        var i;
-        var x = document.getElementsByClassName("mySlides");
-        if (n > x.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = x.length} ;
-        for (i = 0; i < x.length; i++) {
-          x[i].style.display = "none";
-        }
-        x[slideIndex-1].style.display = "block";
-   }</script>
+      x[slideIndex - 1].style.display = "block";
+    }</script>
 </body>
+
 </html>

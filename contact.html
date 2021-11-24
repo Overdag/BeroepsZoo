@@ -1,19 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
+
 <body>
     <div class="navbar">
         <a href="contact.html">Contact</a>
         <a href="#">Tickets</a>
-        <a href="#">Dieren</a>
+        <a href="dieren.html">Dieren</a>
         <a href="index.html">Home</a>
         <h1>Beijing Zoo</h1>
-      </div>
+    </div>
+
+    <div class="body">
+
+        <div class="hoofd-box">
+            <div class="title">Contact</div>
+            <form name="formulier" method="post" action="https://bijlsma.ict-lab.nl/basis1b/form_verwerk.php">
+                <div class="gebruikers">
+                    <div class="inhoud-box">
+                        <span class="inhoud-gegevens">Voornaam:</span>
+                        <input type="text" name="Voornaam" placeholder="Vul hier je voornaam in" required>
+                    </div>
+                    <div class="inhoud-box">
+                        <span class="inhoud-gegevens">Achternaam:</span>
+                        <input type="text" name="Achternaam" placeholder="Vul hier je achternaam in" required>
+                    </div>
+                    <div class="inhoud-box">
+                        <span class="inhoud-gegevens">E-Mail:</span>
+                        <input type="email" name="Email" placeholder="Vul hier je e-mail in" required>
+                    </div>
+                </div>
+                <div class="inhoud-box">
+                    <span class="inhoud-gegevens" name="Stad">Wat is uw vraag?:</span>
+                    <input type="text" name="Wat is je vraag?" required placeholder="Wat is uw vraag?">
+                    <div class="button">
+                        <input type="submit" name="button" value="Verzenden">
+                    </div>
+                </div>
+        </div>
+        </form>
+    </div>
+    </div>
 </body>
+
+</html>
+
+
+</body>
+
 </html>
