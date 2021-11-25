@@ -6,38 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
     <link rel="stylesheet" href="ticket.css">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-<div id="varken">
-<div>
-    <nav>
-        <div class="dropdown">
-            <button class="dropbtn">Dropdown
-            <div class="dropdown-content">
-                <ul>
-                    <li class="link1"><a href="#">Link 1</a>
-                    <div class="submenu">
-                        <ul>
-                           <li><a href="#">Link1</a></li> 
-                        </ul>
-                    </div>
-                </li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                </ul>    
-            </div>
-        </button>
-        </div>
-        <ul>
-            <li><a href="https://www.glr.nl/">Home</a></li>
-            <li><a href="https://www.glr.nl/">About</a></li>
-            <li><a href="https://www.glr.nl/">Blog</a></li>
-            <li><a href="https://www.glr.nl/">Shop</a></li>
-            <li><a href="https://www.glr.nl/">My account</a></li>
-        </ul>
-    </nav>
-</div>
-<img src="aap.jfif" alt="aap" id="aap">
+<div class="navbar">
+    <a href="contact.html">Contact</a>
+    <a href="ticket.html">Tickets</a>
+    <a href="dieren.html">Dieren</a>
+    <a href="index.html">Home</a>
+    <h1>Beijing Zoo</h1>
+  </div>
+<img s src="img/aap.jfif" alt="aap" id="aap">
 
         <div id="form">
         <h1>Vul uw gegevens in</h1>
@@ -57,19 +37,48 @@
             <input type="date" name="date" required><br>
 
             <div id="covid">
-                <label for="movie">Covid-19 kenmerken:</label><br>
-                    <input type="radio" name="kenmerken" value="Hoofdpijn"/>Hoofdpijn<br/>
-                    <input type="radio" name="kenmerken" value="Keelpijn"/>Keelpijn<br/>
-                    <input type="radio" name="kenmerken" value="Buikpijn"/>Buikpijn<br/>
+                <label for="movie">Heeft u Covid-19 kenmerken?</label><br>
+                <br>
+                    <input type="radio" name="kenmerken" value="Hoofdpijn"/>Ja<br/>
+                    <input type="radio" name="kenmerken" value="Keelpijn"/>Nee<br/>
                     <br>
                 </div>
 
-            <input type="submit" name="button" value="Submit" id="button"/>
+            <input type="submit" name="button" value="koop ticket" id="button"/>
+            
 
         </form>
         </div>
         </div>   
 </div>
+<div class="prijzen">
+    <table class="table">
+    <h2>Prijzen p.p:</h2>
+      <thead>
+        <tr>
+          <th>Prijzen</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Volwassene	€ 24,50</td>
+        </tr>
+        <tr>
+          <td>Kinderen 3 t/m 12 jaar	€ 20,00</td>
+        </tr>
+        <tr>
+          <td>Kinderen 3 t/m 12 jaar	€ 20,00</td>
+        </tr>
+        <tr>
+          <td>Begeleiders (vanaf 13 jaar) van gehandicapte personen (vanaf 3 jaar) alleen aan de kassa te koop	€ 14,50	</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+
+
+<br><br><br><br>
 <footer id="footer">
     <div class="container">
   	 	<div class="row">
@@ -103,5 +112,6 @@
   	 	</div>
   	 </div>
 </footer>
+<br>
 </body>
 </html>
