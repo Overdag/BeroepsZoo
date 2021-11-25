@@ -124,13 +124,13 @@ img{
 .opening{
   position: absolute;
   left: 10%;
-  bottom: 10%;
+  bottom: 0%;
 }
 
 .prijzen{
   position: absolute;
   left: 70%;
-  bottom: 20%;
+  bottom: 1%;
 }
 
 
