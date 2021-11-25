@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="ticket.css">
+</head>
+<body>
+<div id="varken">
+<div>
+    <nav>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown
+            <div class="dropdown-content">
+                <ul>
+                    <li class="link1"><a href="#">Link 1</a>
+                    <div class="submenu">
+                        <ul>
+                           <li><a href="#">Link1</a></li> 
+                        </ul>
+                    </div>
+                </li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>    
+            </div>
+        </button>
+        </div>
+        <ul>
+            <li><a href="https://www.glr.nl/">Home</a></li>
+            <li><a href="https://www.glr.nl/">About</a></li>
+            <li><a href="https://www.glr.nl/">Blog</a></li>
+            <li><a href="https://www.glr.nl/">Shop</a></li>
+            <li><a href="https://www.glr.nl/">My account</a></li>
+        </ul>
+    </nav>
+</div>
+<img src="aap.jfif" alt="aap" id="aap">
+
+        <div id="form">
+        <h1>Vul uw gegevens in</h1>
+        <div>
+        <form name="formulier" method="POST" action="https://bijlsma.ict-lab.nl/basis1b/form_verwerk.php">
+
+            <label for="fname">First name:</label><br>
+            <input type="text" name="fname" maxlength="15" required/><br>
+
+            <label for="age">Age:</label><br>
+            <input type="number" name="Age" min="0" required><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" required><br>
+
+            <label for="date">date:</label><br>
+            <input type="date" name="date" required><br>
+
+            <div id="covid">
+                <label for="movie">Covid-19 kenmerken:</label><br>
+                    <input type="radio" name="kenmerken" value="Hoofdpijn"/>Hoofdpijn<br/>
+                    <input type="radio" name="kenmerken" value="Keelpijn"/>Keelpijn<br/>
+                    <input type="radio" name="kenmerken" value="Buikpijn"/>Buikpijn<br/>
+                    <br>
+                </div>
+
+            <input type="submit" name="button" value="Submit" id="button"/>
+
+        </form>
+        </div>
+        </div>   
+</div>
+<footer id="footer">
+    <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>Bedrijf</h4>
+  	 			<ul>
+  	 				<li><a href="#">Over ons</a></li>
+  	 				<li><a href="#">Onze service</a></li>
+  	 				<li><a href="#">privacy policy</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Krijg hulp</h4>
+  	 			<ul>
+  	 				<li><a href="#">FAQ</a></li>
+  	 				<li><a href="#">Tickets</a></li>
+  	 				<li><a href="#">retouneren</a></li>
+  	 				<li><a href="#">Betaal opties</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>Contact</h4>
+  	 			<ul>
+  	 				<li>piemelgaarde12</li>
+  	 				<li>06-11 en de rest komt van zelf</li>
+  	 				<li>Post adress is 3000nogwat in kont</li>
+  	 			</ul>
+  	 		</div>
+  	 			
+  	 		</div>
+  	 	</div>
+  	 </div>
+</footer>
+</body>
+</html>
