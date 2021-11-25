@@ -65,26 +65,29 @@ img{
 }
 
 .slide{
-  margin-left: 40%;
+  margin-left: 35%;
+}
+
+.mySlides{
+  width: 500px;
 }
 
 .opening{
   position: absolute;
   left: 10%;
-  bottom: 10%;
+  bottom: 1%;
 }
 
 .prijzen{
   position: absolute;
   left: 70%;
-  bottom: 20%;
+  bottom: 10%;
 }
-
 
 .table {
   border-collapse: collapse;
   margin: 25px 0;
-  font-size: 0.9em;
+  font-size: 20px;
   min-width: 400px;
   border-radius: 5px 5px 0 0;
   overflow: hidden;
@@ -115,66 +118,18 @@ img{
   border-bottom: 1px solid #000000;
 }
 
-.dierencollage{
+.dierencollage {
   padding-top: 5%;
   padding-left: 2%;
 }
 
-
-.opening{
-  position: absolute;
-  left: 10%;
-  bottom: 0%;
-}
-
-.prijzen{
-  position: absolute;
-  left: 70%;
-  bottom: 1%;
-}
-
-
-.table {
-  border-collapse: collapse;
-  margin: 25px 0;
-  font-size: 0.9em;
-  min-width: 400px;
-  border-radius: 5px 5px 0 0;
-  overflow: hidden;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-}
-
-.table thead tr {
-  background-color: #ffffff;
-  color: #000000;
-  text-align: left;
-  font-weight: bold;
-}
-
-.table th,
-.table td {
-  padding: 12px 15px;
-}
-
-.table tbody tr {
-  border-bottom: 1px solid #000000;
-}
-
-.table tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
-}
-
-.table tbody tr:last-of-type {
-  border-bottom: 1px solid #000000;
-}
-
 /* footer */
-.container{
+.container {
   margin-top: 170px;
   background: darkslategray;
 }
 
-footer{
+footer {
   display: inline-block;
   width: 100%;
   align-items: center;
