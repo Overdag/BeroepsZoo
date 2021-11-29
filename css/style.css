@@ -218,6 +218,17 @@ footer ul li a:hover{
   font-size: 40px;
 }
 
+.title_info{
+  margin-top: 20px;
+  margin-bottom: 5x;
+  text-align: center;
+  font-size: 40px;
+}
+
+.info_dier{
+  padding: 10px;
+}
+
 .dieren_img{
   margin-left: 60px;
 }
