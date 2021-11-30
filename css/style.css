@@ -232,3 +232,20 @@ footer ul li a:hover{
 .dieren_img{
   margin-left: 60px;
 }
+
+iframe{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+  width: 460px;
+  height: 215px;
+  margin-bottom: 20px;
+}
+/* #video1{
+  margin-top: 130px;
+}
+
+#video2{
+  margin-top: 80px;
+} */
