@@ -11,6 +11,7 @@ body{
   padding: 0;
 }
 
+/* NavBar */
 .navbar {
   overflow: hidden;
   background-color: white;
@@ -39,60 +40,76 @@ body{
   border-radius: 20px;
 }
 
-.title{
-  text-align: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
+/* Home Pagina */
+.home_gallery{
+  display: grid;
+  grid-column-gap: 10px;
+  grid-row-gap: 40px;
+  height: 98vh;
+  grid-template-areas: 
+  'colom1 colom1'
+  'colom2 colom3'
+  'footer1 footer1';
 }
 
-.midden{
-  padding-top: 8%;
-  padding-left: 5%;
-  padding-bottom: 6%;
-  /* background: linear-gradient( rgb(255, 255, 255), rgb(202, 202, 202)); */
-  /* background-image: url(/img/redpanda2.png); */
+.div1, .div2, .div3{
+  border: solid black 2px;
+  
 }
 
-#tesktmezelf{
-  padding-top: 300px;
-    color: black;
-  }
-
-  button{
-    padding: 10px 25px;
-    background-color: rgb(0, 0, 0);
-    border: none;
-    border-radius: 5px;
-    color: white;
-  }
-
-img{
-  width: 500px;
+.div1 { 
+    grid-area: colom1;
 }
 
-.slide{
-  margin-left: 35%;
+.div2 { 
+    grid-area: colom2;
 }
 
+.div3 { 
+    grid-area: colom3;
+}
+
+.footer { 
+  grid-area: footer1;
+}
+
+/* Slide Show */
 .mySlides{
-  width: 500px;
+  width: auto;
+  height: 600px;
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.opening{
-  position: absolute;
-  left: 10%;
-  bottom: 1%;
+button{
+  padding: 5px 20px;
+  background: darkslategray;
+  border: none;
+  border-radius: 5px;
+  color: white;
 }
 
-.prijzen{
-  position: absolute;
-  left: 70%;
-  bottom: 10%;
+.home_welkom{
+  font-size: 50px;
+}
+
+.home_welkom_website{
+  font-size: 30px;
+}
+
+/* Tabels */
+.opening, .prijzen{
+  padding: 20px;
+}
+
+.opening h2, .prijzen h2{
+  text-align: center;
 }
 
 .table {
   border-collapse: collapse;
-  margin: 25px 0;
+  margin-top: 25px;
   font-size: 20px;
   min-width: 400px;
   border-radius: 5px 5px 0 0;
@@ -124,10 +141,6 @@ img{
   border-bottom: 1px solid #000000;
 }
 
-.dierencollage {
-  padding-top: 5%;
-  padding-left: 2%;
-}
 
 /* footer */
 .footer {
@@ -164,48 +177,44 @@ img{
 }
 
 /* Dierenpagina */
-.gallery{
+.dieren_gallery{
   display: grid;
   grid-column-gap: 10px;
   grid-row-gap: 40px;
   height: 98vh;
   grid-template-areas: 
-  'colom1 colom2 colom3'
-  'colom4 colom5 colom6'
+  'dier1 dier2 dier3'
+  'dier4 dier5 dier6'
   'footer1 footer1 footer1';
 }
 
-.div1, .div2, .div3, .div4, .div5, .div6{
+.panda, .kleine_panda, .flamingo, .olifant, .giraf, .ping{
   border: solid black 2px;
   
 }
 
-.div1 { 
-    grid-area: colom1;
+.panda { 
+    grid-area: dier1;
 }
 
-.div2 { 
-    grid-area: colom2;
+.kleine_panda { 
+    grid-area: dier2;
 }
 
-.div3 { 
-    grid-area: colom3;
+.flamingo { 
+    grid-area: dier3;
 }
 
-.div4 { 
-    grid-area: colom4;
+.olifant { 
+    grid-area: dier4;
 }
 
-.div5 { 
-    grid-area: colom5;
+.giraf { 
+    grid-area: dier5;
 }
 
-.div6 { 
-    grid-area: colom6;
-}
-
-.footer { 
-  grid-area: footer1;
+.ping { 
+    grid-area: dier6;
 }
 
 .dieren_title{
