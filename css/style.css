@@ -130,39 +130,32 @@ img{
 }
 
 /* footer */
-.container {
-  margin-top: 170px;
-  background: darkslategray;
-}
-
-footer {
+.footer {
   display: inline-block;
   width: 100%;
-  align-items: center;
-  justify-content: space-between; 
-  
-  
+  bottom: 0%;
+  position: relative;
+  background: darkslategray;
 }
 .footer-col{
   display: inline-block;
   padding-left: 20%;
-
 }
 
-footer ul li{
+.footer ul li{
   padding-top: 10px;
   list-style: none;
   margin: 10px 20px;
 }
 
-footer ul li a{
+.footer ul li a{
   text-decoration: none;
   color: black;
   font-weight: bold;
   transition: 250ms;
 
 }
-footer ul li a:hover{
+.footer ul li a:hover{
   color: #29b8b4;
   transition: 250ms;
   padding: 5px;
@@ -172,14 +165,14 @@ footer ul li a:hover{
 
 /* Dierenpagina */
 .gallery{
-  padding: 10px;
   display: grid;
   grid-column-gap: 10px;
   grid-row-gap: 40px;
   height: 98vh;
   grid-template-areas: 
   'colom1 colom2 colom3'
-  'colom4 colom5 colom6';
+  'colom4 colom5 colom6'
+  'footer1 footer1 footer1';
 }
 
 .div1, .div2, .div3, .div4, .div5, .div6{
@@ -209,6 +202,10 @@ footer ul li a:hover{
 
 .div6 { 
     grid-area: colom6;
+}
+
+.footer { 
+  grid-area: footer1;
 }
 
 .dieren_title{
@@ -242,10 +239,3 @@ iframe{
   height: 215px;
   margin-bottom: 20px;
 }
-/* #video1{
-  margin-top: 130px;
-}
-
-#video2{
-  margin-top: 80px;
-} */
