@@ -52,11 +52,6 @@ body{
   'footer1 footer1';
 }
 
-.div1, .div2, .div3{
-  /* border: solid black 2px; */
-  
-}
-
 .div1 { 
     grid-area: colom1;
 }
@@ -99,7 +94,7 @@ button{
 
 .home_text{
   margin-top: 15%;
-  margin-left: 5%;
+  margin-left: 4%;
   position: absolute;
 }
 
@@ -121,12 +116,37 @@ button{
   padding: 20px;
 }
 
+.corona{
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(171, 219, 238);
+}
+
 .home_covid_info{
+  color: rgb(45, 80, 192);
   padding: 20px;
   width: 700px;
-  
   margin-left: auto;
   margin-right: auto;
+}
+
+.boek{
+  margin-left: 140px;
+}
+
+.button_ticket{
+  position: absolute;
+  margin-left: 400px;
+  margin-bottom: 300px;
+}
+
+.contact{
+  margin-top: 80px;
+}
+
+.home_contact{
+  font-size: 30px;
+  text-align: center;
 }
 
 /* Tabels */
@@ -134,8 +154,9 @@ button{
   padding: 20px;
 }
 
-.opening h2, .prijzen h2{
+.opening p, .prijzen p{
   text-align: center;
+  font-size: 40px;
 }
 
 .table {
@@ -293,4 +314,80 @@ iframe{
   width: 460px;
   height: 215px;
   margin-bottom: 20px;
+}
+
+/* Tickets */
+#form{
+  text-align: center;
+  margin-top: 50px;
+}
+#button{
+  size: 50px;
+}
+input[type=text] {
+  width: 10%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgba(144, 238, 144, 0.856);
+  border-radius: 4px;
+}
+input[type=number] {
+  width: 10%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgba(144, 238, 144, 0.856);
+  border-radius: 4px;
+}
+input[type=email] {
+  width: 10%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgba(144, 238, 144, 0.856);
+  border-radius: 4px;
+}
+input[type=date] {
+  width: 10%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgba(144, 238, 144, 0.856);
+  border-radius: 4px;
+}
+input[type=submit] {
+  padding: 20px 50px;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 5px;
+  border: 2px solid rgba(144, 238, 144, 0.856);
+  margin-bottom: 100px;
+}
+
+select[type=tickets] {
+  text-align: center;
+  font-size: 25px;
+  border-radius: 5px;
+  border: 2px solid rgba(144, 238, 144, 0.856);
+}
+
+#covid{
+  text-align: left;
+  width: 120px;
+  margin: auto;
+}
+
+#aap{
+  width: 500px;
+  position: absolute;
+  left: 8%;
+  top: 20%;
+}
+
+.prijzen2{
+  position: absolute;
+  left: 65%;
+  top: 20%;
+  margin-right: 50px;
 }
