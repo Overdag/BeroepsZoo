@@ -44,7 +44,7 @@ body{
 .home_gallery{
   display: grid;
   grid-column-gap: 10px;
-  grid-row-gap: 40px;
+  grid-row-gap: 10px;
   height: 98vh;
   grid-template-areas: 
   'colom1 colom1'
@@ -53,7 +53,7 @@ body{
 }
 
 .div1, .div2, .div3{
-  border: solid black 2px;
+  /* border: solid black 2px; */
   
 }
 
@@ -80,6 +80,7 @@ body{
 
   margin-left: auto;
   margin-right: auto;
+  margin-top: 20px;
 }
 
 button{
@@ -90,12 +91,42 @@ button{
   color: white;
 }
 
+.button_div{
+  padding: 10px;
+  margin-left: 47%;
+  margin-bottom: 100px;
+}
+
+.home_text{
+  margin-top: 15%;
+  margin-left: 5%;
+  position: absolute;
+}
+
 .home_welkom{
   font-size: 50px;
 }
 
 .home_welkom_website{
   font-size: 30px;
+}
+
+.home_titel{
+  text-align: center;
+  padding: 5px;
+  font-size: 40px;
+}
+
+.home_contact{
+  padding: 20px;
+}
+
+.home_covid_info{
+  padding: 20px;
+  width: 700px;
+  
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Tabels */
@@ -115,6 +146,9 @@ button{
   border-radius: 5px 5px 0 0;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .table thead tr {
@@ -178,7 +212,7 @@ button{
 
 /* Dierenpagina */
 .dieren_gallery{
-  padding: 10px;
+  padding: 5px;
   display: grid;
   grid-column-gap: 10px;
   grid-row-gap: 40px;
@@ -225,6 +259,12 @@ button{
   font-size: 40px;
 }
 
+.title{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .title_info{
   margin-top: 20px;
   margin-bottom: 5x;
@@ -237,7 +277,12 @@ button{
 }
 
 .dieren_img{
-  margin-left: 60px;
+  width: auto;
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
 }
 
 iframe{

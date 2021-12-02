@@ -1,136 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Beijing Zoo</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Beijing Zoo</title>
 </head>
+
 <body>
-    <div class="navbar">
-        <a href="contact.html">Contact</a>
-        <a href="ticket.html">Tickets</a>
-        <a href="dieren.html">Dieren</a>
-        <a href="index.html">Home</a>
-        <h1>Beijing Zoo</h1>
+  <div class="navbar">
+    <a href="contact.html">Contact</a>
+    <a href="ticket.html">Tickets</a>
+    <a href="dieren.html">Dieren</a>
+    <a href="index.html">Home</a>
+    <h1>Beijing Zoo</h1>
+  </div>
+  <hr>
+  <img style=" padding-left: 10%; width: 400px; position: absolute;" src="/img/bz.png">
+
+  <div class="home_gallery">
+    <div class="div1">
+      <div class="home_text">
+        <p class="home_welkom">Beijing Zoo</p>
+        <p class="home_welkom_website">Welkom op onze website</p>
+      </div>
+      <div class="slide">
+        <img class="mySlides" src="/img/oli2.png">
+        <img class="mySlides" src="/img/panda1.png">
+        <img class="mySlides" src="/img/redpanda2.png">
+        <img class="mySlides" src="/img/flam1.png">
+        <div class="button_div">
+          <button class="button_left" onclick="plusDivs(-1)">&#10094;</button>
+          <button class="button_right" onclick="plusDivs(+1)">&#10095;</button>
+        </div>
+      </div>
     </div>
-    <hr>
-    <img style=" padding-left: 10%; width: 400px; position: absolute;" src="/img/bz.png">
+    <div class="div2">
+      <p class="home_titel">Contact</p>
+      <p class="home_contact">Dong Wu Yuan, Xicheng District, Beijing, China <br>
+        137 Xizhimen Outer St <br>
+        +86 10 6839 0274</p>
 
-    <div class="home_gallery">
-        <div class="div1">
-            <div class="slide">
-                <img class="mySlides" src="/img/oli2.png">
-                <img class="mySlides" src="/img/panda1.png">
-                <img class="mySlides" src="/img/redpanda2.png">
-                <img class="mySlides" src="/img/flam1.png">
-                <button class="button_left" onclick="plusDivs(-1)">&#10094;</button>
-                <button class="button_right" onclick="plusDivs(+1)">&#10095;</button>
-              </div>
-        </div>
-        <div class="div2">
-            <p class="home_welkom">Beijing Zoo</p>
-            <p class="home_welkom_website">Welkom op onze website</p>
-        </div>
-        <div class="div3">
-            <div class="opening">
-                <table class="table">
-                <h2>Openingstijden:</h2>
-                  <thead>
-                    <tr>
-                      <th>Dag</th>
-                      <th>Openingstijden</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Maandag</td>
-                      <td>09:00 tot 20:00</td>
-                    </tr>
-                    <tr>
-                      <td>Dinsdag</td>
-                      <td>09:00 tot 20:00</td>
-                    </tr>
-                    <tr>
-                      <td>Woensdag</td>
-                      <td>09:00 tot 20:00</td>
-                    </tr>
-                    <tr>
-                      <td>Donderdag</td>
-                      <td>09:00 tot 20:00</td>
-                    </tr>
-                    <tr>
-                      <td>Vrijdag</td>
-                      <td>12:00 tot 20:00</td>
-                    </tr>
-                    <tr>
-                      <td>Zaterdag</td>
-                      <td>09:00 tot 20:00</td>
-                    </tr>
-                    <tr>
-                      <td>Zondag</td>
-                      <td>09:00 tot 20:00</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-              <div class="prijzen">
-                <table class="table">
-                <h2>Prijzen:</h2>
-                  <thead>
-                    <tr>
-                      <th>Prijzen</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Volwassene	€ 24,50</td>
-                    </tr>
-                    <tr>
-                      <td>Kinderen 3 t/m 12 jaar	€ 20,00</td>
-                    </tr>
-                    <tr>
-                      <td>Kinderen 3 t/m 12 jaar	€ 20,00</td>
-                    </tr>
-                    <tr>
-                      <td>Begeleiders (vanaf 13 jaar) van gehandicapte personen (vanaf 3 jaar) alleen aan de kassa te koop	€ 14,50	</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-        </div>
-        <div class="footer">
-            <div class="footer-col">
-                <h4>Bedrijf</h4>
-                <ul>
-                    <li><a href="#">Over ons</a></li>
-                    <li><a href="#">Onze service</a></li>
-                    <li><a href="#">privacy policy</a></li>
-                </ul>
-            </div>
+      <p class="home_titel">Corona</p>
+      <p class="home_covid_info">Vanaf 26 November is het verplicht om mondkapjes te dragen in al onze binnenruimtes. Dit betreft het
+        North Area, East Area, West Area, alle horeca locaties en de toiletten.</p>
 
-            <div class="footer-col"> <br>
-                <h4>Krijg hulp</h4>
-                <ul>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Tickets</a></li>
-                    <li><a href="#">retouneren</a></li>
-                    <li><a href="#">Betaal opties</a></li>
-                </ul>
-            </div>
-            <div class="footer-col">
-                <h4>Contact</h4>
-                <ul>
-                    <li>Dong Wu Yuan, Xicheng District, Beijing, China</li>
-                    <li>137 Xizhimen Outer St</li>
-                    <li>+86 10 6839 0274</li>
-                </ul>
-            </div>
-        </div>
+      <p class="home_covid_info">Iedereen kan ons dierenpark en onze dieren gewoon bezoeken. Reserveer vooraf een online ticket en een tijdslot
+        voor de dag dat je wilt komen. Ook abonnementhouders zullen hun bezoek inclusief aankomsttijd dienen te
+        reserveren via Mijn ABO. Voorlopig zijn wij nog geopend met een beperkt aantal gasten om daarmee iedereen zoveel
+        mogelijke persoonlijke ruimte te gunnen in ons park</p>
     </div>
+    <div class="div3">
+      <div class="opening">
+        <table class="table">
+          <h2>Openingstijden</h2>
+          <thead>
+            <tr>
+              <th>Dag</th>
+              <th>Openingstijden</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Maandag</td>
+              <td>09:00 tot 20:00</td>
+            </tr>
+            <tr>
+              <td>Dinsdag</td>
+              <td>09:00 tot 20:00</td>
+            </tr>
+            <tr>
+              <td>Woensdag</td>
+              <td>09:00 tot 20:00</td>
+            </tr>
+            <tr>
+              <td>Donderdag</td>
+              <td>09:00 tot 20:00</td>
+            </tr>
+            <tr>
+              <td>Vrijdag</td>
+              <td>12:00 tot 20:00</td>
+            </tr>
+            <tr>
+              <td>Zaterdag</td>
+              <td>09:00 tot 20:00</td>
+            </tr>
+            <tr>
+              <td>Zondag</td>
+              <td>09:00 tot 20:00</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="prijzen">
+        <table class="table">
+          <h2>Prijzen</h2>
+          <thead>
+            <tr>
+              <th>Prijzen</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Volwassene € 24,50</td>
+            </tr>
+            <tr>
+              <td>Kinderen 3 t/m 12 jaar € 20,00</td>
+            </tr>
+            <tr>
+              <td>Kinderen 3 t/m 12 jaar € 20,00</td>
+            </tr>
+            <tr>
+              <td>Begeleiders (vanaf 13 jaar) van gehandicapte personen (vanaf 3 jaar) alleen aan de kassa te koop €
+                14,50 </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-col">
+        <h4>Bedrijf</h4>
+        <ul>
+          <li><a href="#">Over ons</a></li>
+          <li><a href="#">Onze service</a></li>
+          <li><a href="#">privacy policy</a></li>
+        </ul>
+      </div>
 
-    <!-- JavaScript -->
+      <div class="footer-col"> <br>
+        <h4>Krijg hulp</h4>
+        <ul>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Tickets</a></li>
+          <li><a href="#">retouneren</a></li>
+          <li><a href="#">Betaal opties</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li>Dong Wu Yuan, Xicheng District, Beijing, China</li>
+          <li>137 Xizhimen Outer St</li>
+          <li>+86 10 6839 0274</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
   <script>var slideIndex = 1;
     showDivs(slideIndex);
 
@@ -149,4 +169,5 @@
       x[slideIndex - 1].style.display = "block";
     }</script>
 </body>
+
 </html>
