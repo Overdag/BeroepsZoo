@@ -178,6 +178,7 @@ button{
 
 /* Dierenpagina */
 .dieren_gallery{
+  padding: 10px;
   display: grid;
   grid-column-gap: 10px;
   grid-row-gap: 40px;
